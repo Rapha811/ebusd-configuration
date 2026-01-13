@@ -129,7 +129,7 @@ namespace Hcmode_inc {
   model uw_1 {}
 
   /** Status circulation pump */
-  @inherit(r_1)
+  @inherit(uw_1)
   @ext(0)
   model StatusCirPump {
     @values(Values_StatusCirPump)
